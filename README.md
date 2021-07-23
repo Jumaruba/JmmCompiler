@@ -1,5 +1,8 @@
+<p align="center"> 
+  <h3 align="center"> Jmm Compiler </h3> 
+  <p align="center"> Simple compiler for the Jmm Language </p> 
+</p> 
 
-### Summary:
 This project consists in a compiler tool to parse the J-- language for java bytecode, which can be executed using the [jasmin library](http://jasmin.sourceforge.net/).   
 This tool also has options for code optimization, which can be applied making use of the `-o` and `-r=x` options.
 
