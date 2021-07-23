@@ -1,11 +1,3 @@
-## GROUP: T3G1
-
-- Diana Freitas, NUMBER: up201806230, GRADE: 19, CONTRIBUTION: 25%
-- Diogo Fernandes, NUMBER: up201806250, GRADE: 19, CONTRIBUTION: 25%
-- Hugo Guimarães, NUMBER: up201806490, GRADE: 19, CONTRIBUTION: 25%
-- Juliane Marubayashi, NUMBER: up201800175, GRADE: 19, CONTRIBUTION: 25%
-
-GLOBAL Grade of the project: 19
 
 ### Summary:
 This project consists in a compiler tool to parse the J-- language for java bytecode, which can be executed using the [jasmin library](http://jasmin.sourceforge.net/).   
@@ -166,3 +158,13 @@ We did everything that was suppose to do, trying to always use the best design p
 ### CONS:
 We don't sanitize the variables. For example, 'array' and '$' are reserved in OLLIR and if the code has these variables it will break and OLLIR will not run.  
 The -r optimization could be better when showing error messages. Once it's not possible to make the graph coloring for certain number of registers the code generation is interrupted by an `OPTIMIZER` exception. However in some cases that the number of register is too low, another error might appear, which does not describe correctly the nature of the exception.  
+
+
+### GROUP: T3G1
+
+- Diana Freitas, NUMBER: up201806230, GRADE: 19, CONTRIBUTION: 25%
+- Diogo Fernandes, NUMBER: up201806250, GRADE: 19, CONTRIBUTION: 25%
+- Hugo Guimarães, NUMBER: up201806490, GRADE: 19, CONTRIBUTION: 25%
+- Juliane Marubayashi, NUMBER: up201800175, GRADE: 19, CONTRIBUTION: 25%
+
+GLOBAL Grade of the project: 19
